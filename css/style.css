@@ -1,0 +1,97 @@
+:root {
+  --bg: #f5f0f4;
+  --font-color: #ff00dd;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--bg);
+  font-family: "Poppins", sans-serif;
+  /* min-height: 2000px; */
+}
+
+/* Hero section */
+.container-fluid {
+  min-height: 100vh;
+  background-image: linear-gradient(lightblue, #f5f0f4);
+}
+
+.card {
+  border-color: #ff00dd;
+}
+
+.card .card-header {
+  font-family: "Caveat", cursive;
+  font-size: 2.6rem;
+  color: #ff00dd;
+  font-weight: bold;
+  letter-spacing: 0.4rem;
+  border-bottom: 1px solid var(--font-color);
+}
+
+.card .card-body {
+  border-bottom: 1px solid var(--font-color);
+}
+
+.card .card-body .btn {
+  border: 1px solid var(--font-color);
+  color: var(--font-color);
+  letter-spacing: 0.5rem;
+}
+
+.card .card-body .btn:hover {
+  background-color: var(--font-color);
+  color: white;
+}
+
+/* Home Section */
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(lightblue, #f5f0f4);
+  /* background-repeat: no-repeat; */
+  /* background-color: aqua; */
+}
+/* 
+.home .container {
+  background-color: bisque;
+} */
+
+.home .home-title {
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  letter-spacing: 1rem;
+  color: var(--font-color);
+}
+
+.home .home-content {
+  /* background-color: black; */
+  width: auto;
+  height: 100vh;
+}
+
+/* .home .home-img {
+  width: 100px;
+  height: 100px;
+  margin: 1rem;
+} */
+
+.home img {
+  padding: 1rem 0;
+  margin-top: 1rem;
+  width: 100%;
+  max-height: 350px;
+  border: 2px solid var(--font-color);
+}
+
+.home .home-vid {
+  width: 100%;
+  margin-top: 1rem;
+  /* background-color: #ff00dd; */
+}
+
+.home video {
+  border: 2px solid var(--font-color);
+}
