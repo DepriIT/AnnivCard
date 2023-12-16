@@ -72,17 +72,14 @@ body {
   height: 100vh;
 }
 
-/* .home .home-img {
-  width: 100px;
-  height: 100px;
-  margin: 1rem;
-} */
+.home .home-img {
+  margin-top: 1rem;
+}
 
 .home img {
-  padding: 1rem 0;
-  margin-top: 1rem;
+  /* padding: 1rem 0; */
   width: 100%;
-  max-height: 350px;
+  height: 100%;
   border: 2px solid var(--font-color);
 }
 
